@@ -8,7 +8,7 @@ Demo Link:  https://drive.google.com/file/d/16Kg-Evn1dUivP2Y-5doQ_7TFDy7g6z2T/vi
 
 This is a real-time chat application that allows users to sign in, send messages, and see the online status of other users. Built with modern web technologies, it provides a smooth and responsive experience. 🚀
 
-Link to backendRepo: 
+Link to backendRepo: https://github.com/shruti0503/ChatBackend
 
 ## 📋 Features
 
