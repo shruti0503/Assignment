@@ -10,7 +10,7 @@ import { useMessaging } from '../Providers/MessagingContext';
 import { socket } from '../App';
 
 
-const Sidebar = () => {
+const Sidebar = ({messages}:any) => {
 
   const { status, setStatus, currentMessaging, selectUser } = useMessaging();
 
@@ -41,6 +41,8 @@ const Sidebar = () => {
 
   },[currentMessaging])
 
+  console.log("messages", messages)
+
   const getConversationDetails=()=>{
 
   }
@@ -51,10 +53,12 @@ const Sidebar = () => {
 
   useEffect(()=>{
     getConversation();
+   
 
    
 
   },[])
+  console.log("messages",messages)
 
   
 
@@ -96,10 +100,10 @@ const Sidebar = () => {
                 message.participantId !==user.id 
                 &&
                 <Message
-                key={message.id}
+               // key={message.id}
                 id={message.participantId}
                 user={message.username}
-               // message={message.message}
+                 //message={messages[Messages.length-1].content}
                 //timestamp={message?.timestamp}
                 isSelected={currentMessaging.userId === message.participantId}
               />

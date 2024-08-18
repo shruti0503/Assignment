@@ -6,12 +6,12 @@ import { useMessaging } from '../Providers/MessagingContext';
 type messageType = {
   id: number;
   user: string;
-  message: string;
-  timestamp: string;
+  //message: string;
+  //timestamp: string;
   isSelected:Boolean;
 }
 
-const Message = ({ isSelected,id, user, timestamp }: messageType) => {
+const Message = ({ isSelected,id, user }: any) => {
   const {currentMessaging}=useMessaging();
   const [active, setActive]=useState(false);
   const message="Start the conversation. get Started "
