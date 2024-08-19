@@ -57,7 +57,7 @@ export const MessagingProvider: React.FC<{ children: ReactNode }> = ({ children 
   );
 };
 
-// Custom hooks for using context
+// Custom hooks 
 export const useMessaging = () => {
   const context = useContext(MessagingContext);
   if (!context) {
