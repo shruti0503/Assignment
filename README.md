@@ -33,43 +33,7 @@ Link to backendRepo: https://github.com/shruti0503/ChatBackend
 - **Database**: PostgreSQL with Drizzle ORM
 - **Real-Time Communication**: Socket.IO
 
-## 🚀 Getting Started
 
-### 📦 Prerequisites
-
-- Node.js
-- PostgreSQL
-
-### 🛠️ Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
-   ```
-
-2. **Install the dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-3. **Set up the PostgreSQL database:**
-
-   - Create a database in PostgreSQL.
-   - Update the database configuration in the `.env` file.
-
-
-5. **Start the development server:**
-
-   ```bash
-   npm start
-   ```
-
-### 🎮 Running the Application
-
-- Open your browser
 
 ## 📚 Usage
 
