@@ -27,7 +27,7 @@ Deployed Link: https://assignment-snowy-chi.vercel.app/
 
 ---
 
-##  Next Improvement 
+##  Potential Improvements
 
 Implement persistent caching using **React Query** or **localStorage**, add pagination and product sorting for better scalability.
 
